@@ -72,7 +72,6 @@ viewSearchResult result =
     , a
         [ href ("https://github.com/" ++ result.name), target "_blank" ]
         [ text result.name ]
-    , text result.name
     ]
 
 

@@ -60,7 +60,7 @@ view model =
         ]
     , ul
         [ class "results" ]
-        [{- TODO use model.results and viewSearchResults to display results -}]
+        (List.map ( \result -> viewSearchResult result ) model.results)
     ]
 
 
